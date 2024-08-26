@@ -1,0 +1,23 @@
+main{
+    height: auto;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+section{
+    width: 100%;
+    height: 500px;
+
+}
+p::before{
+    content: "😎";
+}
+p::first-letter{
+    font-size: 20px;
+    color: red;
+}
+p::selection{
+    background-color: yellow;
+}
